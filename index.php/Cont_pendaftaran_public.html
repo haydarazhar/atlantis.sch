@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Atlantisplus</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../assets/template/css/bootstrap.min.css" type="text/css">
+	<link href="../assets/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="../assets/template/js/owl-carousel/owl.carousel.css">
+
+	<link rel="stylesheet" href="../assets/template/js/owl-carousel/owl.theme.css">
+
+	<link rel="stylesheet" href="../assets/template/js/owl-carousel/owl.transitions.css">
+
+	<link rel="stylesheet" href="../assets/template/js/rs-plugin/css/settings.css">
+
+	<link rel="stylesheet" href="../assets/template/js/flexslider/flexslider.css">
+
+	<link rel="stylesheet" href="../assets/template/js/isotope/isotope.css">
+
+	<link rel="stylesheet" href="../assets/template/css/jquery-ui.css">
+
+	<link rel="stylesheet" href="../assets/template/js/magnific-popup/magnific-popup.css">
+
+	<link rel="stylesheet" href="../assets/template/css/style.css">
+
+	<link rel="shortcut icon" href="../assets/images/icon/SMK_AES.png" />
+
+	<!-- Media Query -->
+	<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Google Fonts -->
+	<link
+		href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+		rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet'
+		type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800' rel='stylesheet'
+		type='text/css'>
+
+	<!-- Icon Fonts -->
+	<link rel="stylesheet" href="../assets/template/css/icomoon/style.css" type="text/css">
+	<link rel="stylesheet" href="../assets/template/font-awesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- SKIN -->
+	<link rel="stylesheet" href="../assets/template/css/color-scheme/default-blue.css" type="text/css">
+	<script src="../assets/template/js/jquery.js"></script>
+	<link rel="stylesheet" href="../assets/bootstrap-select/dist/css/bootstrap-select.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="outer-wrapper">
+		<script type="text/javascript">
+			function open_submenu_smp() {
+				var cek_class_menu = $("#sub_menu_smp").hasClass("open");
+				if (cek_class_menu == true) {
+					var element = document.getElementById("sub_menu_smp").classList.remove("open");
+				} else {
+					var element = document.getElementById("sub_menu_smp").classList.add("open");
+					var element = document.getElementById("sub_menu_smk").classList.remove("open");
+				};
+			}
+
+			function open_submenu_smk() {
+				var cek_class_menu = $("#sub_menu_smk").hasClass("open");
+				if (cek_class_menu == true) {
+					var element = document.getElementById("sub_menu_smk").classList.remove("open");
+				} else {
+					var element = document.getElementById("sub_menu_smk").classList.add("open");
+					var element = document.getElementById("sub_menu_smp").classList.remove("open");
+				};
+			}
+		</script>
+
+		<!-- HEADER -->
+		<header id="header-main">
+			<div class="container">
+				<div class="navbar yamm navbar-default">
+					<div class="navbar-header">
+						<button type="button" data-toggle="collapse" data-target="#navbar-collapse-1"
+							class="navbar-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="Cont_home_public.html" class="navbar-brand"
+							style="margin-top: 10px; margin-bottom: 10px;"><img
+								src="../assets/images/icon/Icon_Atlanti%20Entrepreneur%20Shool.png"
+								style="height: auto; width: 100%;" alt="" /></a>
+					</div>
+					<div id="navbar-collapse-1" class="navbar-collapse collapse navbar-right">
+
+						<ul class="nav navbar-nav" style="margin-right: 30px;">
+							<li class="current  " style="text-align: -webkit-center"><a href="Cont_home_public.html"
+									style="font-size: 20px; font-family: rajdhani; src:url('rajdhani-medium.ttf');">Beranda</a>
+							</li>
+
+							<li class="current active " style="text-align: -webkit-center"><a
+									href="Cont_pendaftaran_public.html"
+									style="font-size: 20px; font-family: rajdhani; src:url('rajdhani-medium.ttf');">Pendaftaran</a>
+							</li>
+
+							<li class="dropdown" style="text-align: -webkit-center">
+
+								<a href="#" data-toggle="dropdown" class="dropdown-toggle"
+									style="font-size: 15px;font-size: 20px; font-family: rajdhani; src:url('rajdhani-medium.ttf');">
+
+									Sekolah
+
+									<div class="arrow-up"><i class="fa fa-angle-down"></i></div>
+								</a>
+
+								<ul class="dropdown-menu" role="menu">
+
+									<li id="sub_menu_smp" class="dropdown-submenu" onclick="open_submenu_smp()"
+										style="text-align: -webkit-center">
+
+										<a>SMP</a>
+
+										<ul class="dropdown-menu">
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smp_kurikulum.html">Kurikulum</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smp_keunggulan.html">Keunggulan</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smp_prestasi.html">Prestasi</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smp_struktur_organisasi.html">Struktur Organisasi</a>
+											</li>
+
+											<li style="text-align: -webkit-center"><a href="Cont_smp_agenda.html">Galery
+													agenda</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smp_exstra_kurikuler.html">Ekstrakurikuler</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smp_fasilitas.html">Fasilitas</a></li>
+										</ul>
+									</li>
+
+									<li id="sub_menu_smk" class="dropdown-submenu" onclick="open_submenu_smk()"
+										style="text-align: -webkit-center">
+
+										<a>SMK</a>
+
+										<ul class="dropdown-menu">
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smk_kurikulum.html">Kurikulum</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smk_keunggulan.html">Keunggulan</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smk_prestasi.html">Prestasi</a></li>
+
+											<li style="text-align: -webkit-center"><a
+													href="Cont_smk_jurusan.html">Jurusan</a></li>
+
+											<li style="text-align: -webkit-center"><a href="Cont_smk_agenda.html">Galery
+													agenda</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+
+							<li class="current" style="text-align: -webkit-center"><a
+									href="http://lms.atlantisplus.sch.id/"
+									style="font-size: 20px; font-family: rajdhani; src:url('rajdhani-medium.ttf');">LMS</a>
+							</li>
+
+							<li class="current" style="text-align: -webkit-center"><a
+									href="http://lms.atlantisplus.sch.id/"
+									style="font-size: 20px; font-family: rajdhani; src:url('rajdhani-medium.ttf');">Login</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- PAGE HEADER -->
+		<script type="text/javascript">
+			$(document).ready(function () {
+
+				$('#modal_form').modal('show');
+
+				$('#agama').html('<option value="0">-- PILIH AGAMA --</option>');
+
+				$('#jenjang_sekolah').html('<option value="0">-- PILIH JENJANG PENDIDIKAN --</option>');
+
+				$('#dev_kopetensi_keahlian').hide();
+
+				$('#dev_keahlian').hide();
+
+				$.ajax({
+
+					url: "http://atlantisplus.sch.id/index.php/Cont_agama/get_agama_all",
+
+					type: "GET",
+
+					dataType: "JSON",
+
+					success: function (response) {
+						response.forEach(function (element) {
+
+							$('#agama').append('<option value="' + element.id_agama + '">' + element
+								.nama_agama.toUpperCase() + '</option>');
+						});
+					},
+
+					error: function (jqXHR, textStatus, errorThrown) {
+
+						alert('terjadi kesalahan, coba beberapa saat lagi');
+					}
+				});
+
+				$.ajax({
+
+					url: "http://atlantisplus.sch.id/index.php/Cont_jenjang_sekolah/get_jenjang_all",
+
+					type: "GET",
+
+					dataType: "JSON",
+
+					success: function (response) {
+
+						response.forEach(function (element) {
+
+							$('#jenjang_sekolah').append('<option value="' + element
+								.id_jenjang_sekolah + '">' + element.nama_jenjang_sekolah +
+								'</option>');
+						});
+					},
+
+
+				});
+
+				$('[name="nama"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="tempat_lahir"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+				});
+
+				$('[name="tgl_lahir"]').parent().parent().removeClass('has-error');
+
+				$('[name="agama"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="asal_sekolah"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="no_telp"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="email"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="alamat"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="jenjang_sekolah"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="kopetensi_keahlian"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="nama_wali"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+
+				$('[name="no_telp_wali"]').change(function () {
+
+					$(this).parent().parent().removeClass('has-error');
+
+					$(this).next().empty();
+				});
+			});
+
+			function simpan_pendaftaran() {
+
+				swal({
+
+					title: "Pastikan data yang anda isi sudah benar!",
+
+					type: "info",
+
+					showCancelButton: true,
+
+					closeOnConfirm: false,
+
+					showLoaderOnConfirm: true
+				}, function () {
+
+					setTimeout(function () {
+
+						var form = document.getElementById("form_edit_persyaratan");
+
+						var fd = new FormData(form);
+
+						url = "Cont_pendaftaran_public/simpan_pendaftaran.html";
+
+						$.ajax({
+
+							url: url,
+
+							type: "POST",
+
+							data: fd,
+
+							contentType: false,
+
+							processData: false,
+
+							dataType: "JSON",
+
+							success: function (data)
+
+							{
+								if (data.status == true) {
+
+									swal({
+
+											title: "Pendaftaran Berhasil",
+
+											text: "Silahkan cek email untuk melihat no pendaftaran...!",
+
+											type: "success",
+
+											confirmButtonClass: "btn-danger",
+
+											confirmButtonText: "Ya, Selesai",
+
+											closeOnConfirm: false
+										},
+										function () {
+											window.location = data.base_url;
+										});
+								} else {
+									$('[name="nama"]').parent().parent().addClass('has-error');
+									$('[name="nama"]').next().text(data.error_string['nama']);
+									$('[name="tempat_lahir"]').parent().parent().addClass('has-error');
+									$('[name="tgl_lahir"]').parent().parent().addClass('has-error');
+									$('[name="agama"]').parent().parent().addClass('has-error');
+									$('[name="agama"]').next().text(data.error_string['agama']);
+									$('[name="asal_sekolah"]').parent().parent().addClass('has-error');
+									$('[name="asal_sekolah"]').next().text(data.error_string[
+										'asal_sekolah']);
+									$('[name="no_telp"]').parent().parent().addClass('has-error');
+									$('[name="no_telp"]').next().text(data.error_string['no_telp']);
+									$('[name="email"]').parent().parent().addClass('has-error');
+									$('[name="email"]').next().text(data.error_string['email']);
+									$('[name="alamat"]').parent().parent().addClass('has-error');
+									$('[name="alamat"]').next().text(data.error_string['alamat']);
+									$('[name="jenjang_sekolah"]').parent().parent().addClass(
+									'has-error');
+									$('[name="jenjang_sekolah"]').next().text(data.error_string[
+										'jenjang_sekolah']);
+									$('[name="kopetensi_keahlian"]').parent().parent().addClass(
+										'has-error');
+									$('[name="kopetensi_keahlian"]').next().text(data.error_string[
+										'kopetensi_keahlian']);
+									$('[name="nama_wali"]').parent().parent().addClass('has-error');
+									$('[name="nama_wali"]').next().text(data.error_string['nama_wali']);
+									$('[name="no_telp_wali"]').parent().parent().addClass('has-error');
+									$('[name="no_telp_wali"]').next().text(data.error_string[
+										'no_telp_wali']);
+									swal({
+										type: 'warning',
+										title: '',
+										text: 'Yang ber tanda (*) wajib di isi!',
+										footer: '<a href>Why do I have this issue?</a>',
+									});
+								}
+							},
+
+							error: function (jqXHR, textStatus, errorThrown)
+
+							{
+
+								swal({
+
+									type: 'warning',
+
+									title: '',
+
+									text: 'Gagal tambah user!',
+
+									footer: '<a href>Why do I have this issue?</a>',
+
+								});
+							}
+						});
+					}, 2000);
+				});
+			}
+
+			function get_jurusan(jenjang_sekolah) {
+
+				if (jenjang_sekolah == '5') {
+
+					$('#kopetensi_keahlian').html('<option value="0">-- PILIH KOMPETENSI KEAHLIAN --</option>');
+
+					$('#keahlian').html('');
+
+					$.ajax({
+
+								url: "http://atlantisplus.sch.id/index.php/Cont_jurusan/get_juruan_all/" + jenjang_sekolah,
+
+								type: "GET",
+
+								dataType: "JSON",
+
+								success: function (response) {
+
+									$('#dev_kopetensi_keahlian').show();
+
+									$('#dev_keahlian').hide();
+
+									response.forEach(function (element) {
+
+										$('#kopetensi_keahlian').append('<option value="' + element.id_jurusan +
+											'">' + element.nama_jurusan.toUpperCase() + '</option>');
+									});
+								},
+							}
+							else if (jenjang_sekolah == '6') {
+
+								$('#keahlian').html('<option value="0">-- PILIH KATEGORI --</option>');
+
+								$('#kopetensi_keahlian').html('');
+
+								$.ajax({
+
+										url: "http://atlantisplus.sch.id/index.php/Cont_jurusan/get_juruan_all/" +
+											jenjang_sekolah,
+
+										type: "GET",
+
+										dataType: "JSON",
+
+										success: function (response) {
+
+											$('#dev_kopetensi_keahlian').hide();
+
+											$('#dev_keahlian').show();
+
+											response.forEach(function (element) {
+
+												$('#keahlian').append('<option value="' + element.id_jurusan +
+													'">' + element.nama_jurusan.toUpperCase() + '</option>');
+											});
+										},
+
+									}
+									else {
+
+										$('#dev_kopetensi_keahlian').hide();
+
+										$('#dev_keahlian').hide();
+
+										$('#keahlian').html('');
+
+										$('#kopetensi_keahlian').html('');
+									};
+								}
+		</script>
+
+		<!-- PAGE HEADER -->
+		<div class="page_header">
+
+			<div class="bcrumb-wrap">
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-12" style="width: 105%;  margin-left: -51px;">
+
+							<ul class="bcrumbs">
+
+								<li><a href="Cont_home_public.html"
+										style="    font-size: 20px;font-family: rajdhani; src:url('rajdhani-regular.ttf')">
+										<i class="fa fa-home"> </style></i>Beranda</a></li>
+
+								<li><a href="#"
+										style="  font-size: 20px;font-family: rajdhani; src:url('rajdhani-regular.ttf')">Pendaftaran</a>
+								</li>
+							</ul>
+							<div class="clearfix"></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="inner-content" style="background-image: url('../assets/images/pendaftaran.png');
+    background-position: center;
+    background-size: cover;">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-8 col-md-offset-2">
+
+						<form method="post" id="form_edit_persyaratan">
+
+							<h4
+								style="transform: translate(0%, -188%); color: black;src: url(rajdhani-bold.ttf); font-size: 28px; ">
+								<b>IDENTITAS SISWA</b></h4>
+
+							<div class="alert alert-warning">
+
+								<b
+									style="color: #ed1c24;  font-family: rajdhani; src:url('rajdhani-regular.ttf') ;font-size: 16px;">
+									TAHAPAN PENDAFTARAN</b>
+								<br>1. Format isian formulir ini sesuai dengan arahan sistem pendataan di Kemendikbud,
+								Aplikasi Dapodik.
+								<br>2. Mengisi kolom formulir dengan LENGKAP, DATA CALON PESERTA DIDIK BARU,
+								ORANGTUA/WALI.
+								<br>3. Setelah melakukan pengisian, check kembali data apakah sudah benar, lalu klik
+								DAFTAR.
+								<br>4. Setelah sukses malakukan pendaftaran, silakan cek email yang telah didaftarkan
+								untuk melihat no pendaftaran.
+							</div>
+							<br><br><br><br>
+
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">Nama
+									<span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<input class="form-control" name="nama" id="nama" placeholder="Nama" required
+										type="text">
+									<span class="help-block" style="color: #ff0000;"></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">Jenis
+									Kelamin <span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<select class="form-control" name="Jenis Kelamin" id="Jenis Kelamin">
+										<option value="0"> Laki-Laki </option>
+										<option value="0"> Perempuan </option>
+									</select>
+									<span class="help-block" style="color: #ff0000"></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">Agama
+									<span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<select class="form-control" name="Agama" id="Agama">
+										<option value="0"> Islam </option>
+										<option value="0"> kristen </option>
+										<option value="0"> katholik </option>
+										<option value="0"> hindu </option>
+										<option value="0"> budha </option>
+										<option value="0"> konghucu </option>
+
+									</select>
+
+									<span class="help-block" style="color: #ff0000"></span>
+								</div>
+							</div>
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">Asal
+									sekolah <span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<input class="form-control" name="asal_sekolah" id="asal_sekolah"
+										placeholder="Nama asal sekolah" required type="text">
+
+									<span class="help-block" style="color: #ff0000"></span>
+								</div>
+							</div>
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">No.
+									Telp siswa <span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<input class="form-control" name="No.Telp siswa/wali" id="no_telp"
+										placeholder="No. Telp siswa" required type="number">
+
+									<span class="help-block" style="color: #ff0000"></span>
+								</div>
+							</div>
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">E-mail
+									siswa/wali <span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<input class="form-control" name="email" id="email" placeholder="E-mail" required
+										type="email">
+
+									<span class="help-block" style="color: #ff0000"></span>
+								</div>
+							</div>
+
+							<div class="form-group" id="dev_kopetensi_keahlian">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">Kompetensi
+									keahlian <span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<select class="form-control" name="kopetensi_keahlian" id="kopetensi_keahlian">
+
+									</select>
+
+									<span class="help-block" style="color: #ff0000"></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">Nama
+									Orangtua/Wali (Ayah/Ibu) <span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<input class="form-control" name="nama_wali" id="nama_wali" placeholder="Nama wali"
+										required type="text">
+								</div>
+							</div>
+
+							<div class="form-group">
+
+								<label class="col-sm-5 control-label" for
+									style="padding-left: 0px;font-family: rajdhani; src:url('rajdhani-semibold.ttf')">No.
+									Telp Orangtua/Wali (Ayah/Ibu)<span id="" class="text-danger">
+										<font color="red"></font>
+									</span></label>
+
+								<div class="col-sm-14" style="margin-bottom: 20px;">
+
+									<input class="form-control" name="no_telp_wali" id="no_telp_wali"
+										placeholder="No.telp wali" required type="number">
+								</div>
+							</div>
+						</form>
+						<br><br><br>
+						<div class="col-sm-12 col-md-8 text-right" onclick="simpan_pendaftaran()">
+
+							<input class="button btn-md" style="font-family:biger Over; src:url('BigerOver-6Y4wx.otf');"
+								value="Daftar" type="submit">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modal_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true" style="padding-top: 150px;">
+
+			<div class="modal-dialog">
+
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+						<h4 class="modal-title">PERHATIAN...!</h4>
+					</div>
+
+					<div class="modal-body">
+
+						<p>1). (*) wajib di isi..!</p>
+
+						<p>2). pastikan email yang didaftarkan benar</p>
+
+						<p>3). No. Telp siswa/wali wajib di isi</p>
+					</div>
+
+					<div class="modal-footer">
+
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$("#jenjang_sekolah").change(function () {
+
+				get_jurusan($(this).val());
+			});
+		</script>
+
+		<footer>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-3" style="text-align: center;">
+
+						<h4 class="space30">Tentang kami</h4>
+
+						<img style="" src="../assets/images/icon/SMP_AES.png" class="space20" width="70" alt="" />
+
+						<p>SMP Atlantis Plus</p>
+
+						<img style="" src="../assets/images/icon/SMK_AES.png" class="space20" width="70" alt="" />
+
+						<p>SMK Atlantis Plus</p>
+					</div>
+
+					<div class="col-md-5">
+
+						<h4 style="text-align: center;">Kontak Kami</h4>
+
+						<ul class="c-info">
+
+							<h4 style="text-align: center;">SMP Atlantis Plus</h4>
+
+							<li>
+								<span class="fa-icon">
+									<i class="fa fa fa-map-marker" aria-hidden="true"></i>
+								</span>
+								<a href="https://goo.gl/maps/XGqiRVHxoVU7mF8Z7" target="_blank"
+									title=class="link-like-text">Jl. Bukit
+									Sikumbang No.102 RT.04 RW.09 Rangkapan Jaya Baru Depok 16434
+							</li>
+
+							</li>
+
+							<li>
+
+							</li>
+
+							<li>
+								<a href="tel:(021) 2765 1186">
+									<span class="fa-icon">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+									</span>
+									(021) 2765 1186
+								</a>
+							</li>
+
+							<li><i class="fa fa-envelope-o"></i>
+							<li>
+								<a href="https://mail.google.com/mail/u/0/#inbox"
+									title=class=" link-like-text">smp.marketing@atlantisplus.sch.id</a>
+							</li>
+
+							<h4 style="text-align: center;">SMK Atlantis Plus</h4>
+							<li>
+								<span class="fa-icon">
+									<i class="fa fa fa-map-marker" aria-hidden="true"></i>
+								</span>
+								<a href="https://goo.gl/maps/XGqiRVHxoVU7mF8Z7" target="_blank"
+									title=class="link-like-text">Jl. Bukit
+									Sikumbang No.102 RT.04 RW.09 Rangkapan Jaya Baru Depok 16434
+							</li>
+
+							</li>
+
+							<li>
+
+							</li>
+
+							<li>
+								<a href="tel:(021) 2765 1186">
+									<span class="fa-icon">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+									</span>
+									(021) 2277 9687
+								</a>
+							</li>
+
+							<li><i class="fa fa-envelope-o"></i>
+							<li>
+								<a href="https://mail.google.com/mail/u/0/#inbox"
+									title=class=" link-like-text">smk.marketing@atlantisplus.sch.id</a>
+							</li>
+						</ul>
+
+						<div class="clearfix space10"></div>
+					</div>
+
+					<div class="col-md-4">
+
+						<h4 style="text-align: center;" class="space30">Galery</h4>
+
+						<ul id="" class="thumbs" style="width: 100%;">
+
+							<li><a href="../assets/images/SMK/_DSC0515.jpg"><img src="../assets/images/SMK/_DSC0515.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMK/_DSC0673.jpg"><img src="../assets/images/SMK/_DSC0673.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMK/DSCN5006.jpg"><img src="../assets/images/SMK/DSCN5006.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMK/IMG-20161214-WA0011.jpg"><img
+										src="../assets/images/SMK/IMG-20161214-WA0011.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMK/IMG-20180912-WA0012.jpg"><img
+										src="../assets/images/SMK/IMG-20180912-WA0012.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMK/IMG20180911205214.jpg"><img
+										src="../assets/images/SMK/IMG20180911205214.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMP/20181218_153721.jpg"><img
+										src="../assets/images/SMP/20181218_153721.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMP/IMG-20180214-WA0034.jpg"><img
+										src="../assets/images/SMP/IMG-20180214-WA0034.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMP/IMG-20180328-WA0163.jpg"><img
+										src="../assets/images/SMP/IMG-20180328-WA0163.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMP/IMG-20181217-WA0051.jpg"><img
+										src="../assets/images/SMP/IMG-20181217-WA0051.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMP/selfiecamera_2018-04-08-11-51-42-527.jpg"><img
+										src="../assets/images/SMP/selfiecamera_2018-04-08-11-51-42-527.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+
+							<li><a href="../assets/images/SMP/IMG20180831164556.jpg"><img
+										src="../assets/images/SMP/IMG20180831164556.jpg"
+										alt="Every Day I Wake Up Alone"></a></li>
+						</ul>
+						</table> -->
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- FOOTER COPYRIGHT -->
+		<div class="footer-bottom">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-8">
+
+						<p>&copy; Copyright 2018. <a href="http://www.ckthemes.com/" target="_blank">Atlantis plus</a> .
+						</p>
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="f-social pull-right">
+
+							<a class="fa fa-facebook" href="https://web.facebook.com/atlantisplussch.id.7"></a>
+
+							<a class="fa fa-google-plus" href="http://google.com/"></a>
+
+							<a class="fa fa-instagram" href="https://www.instagram.com/atlantisplus.sch.id/?hl=id"></a>
+
+							<a class="fa fa-youtube"
+								href="https://www.youtube.com/channel/UC1vkEj-8v6BqCt5IOH9lwHw"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Plugins -->
+	<script src="../assets/template/js/bootstrap.min.js"></script>
+
+	<script src="../assets/template/js/menu.js"></script>
+
+	<script src="../assets/template/js/owl-carousel/owl.carousel.min.js"></script>
+
+	<script src="../assets/template/js/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+
+	<script src="../assets/template/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script src="../assets/template/js/jquery.easing.min.js"></script>
+
+	<script src="../assets/template/js/isotope/isotope.pkgd.js"></script>
+
+	<script src="../assets/template/js/jflickrfeed.min.js"></script>
+
+	<script src="../assets/template/js/tweecool.js"></script>
+
+	<script src="../assets/template/js/flexslider/jquery.flexslider.js"></script>
+
+	<script src="../assets/template/js/easypie/jquery.easypiechart.min.js"></script>
+
+	<script src="../assets/template/js/jquery-ui.js"></script>
+
+	<script src="../assets/template/js/jquery.appear.js"></script>
+
+	<script src="../assets/template/js/jquery.inview.js"></script>
+
+	<script src="../assets/template/js/jquery.countdown.min.js"></script>
+
+	<script src="../assets/template/js/jquery.sticky.js"></script>
+
+	<script src="../assets/template/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+	<script src="../assets/bootstrap-select/dist/js/bootstrap-select.js"></script>
+
+	<script src="../../momentjs.com/downloads/moment-with-locales.js"></script>
+
+	<script src="../assets/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+
+	<script src="../assets/sweetalert/sweetalert.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../assets/sweetalert/sweetalert.css">
+
+	<script src="../assets/template/js/main.js"></script>
+</body>
+<!-- Mirrored from atlantisplus.sch.id/index.php/Cont_pendaftaran_public by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 May 2021 04:08:56 GMT -->
+
+</html>
